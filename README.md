@@ -1,32 +1,30 @@
-# easybpm-releases
+# EasyBPM — updates
 
-Канал оновлення EasyBPM. Тут лежить **тільки** те, що плагін завантажує сам:
-підписаний нотаризований `.pkg` у GitHub Release і маніфест `latest.json` у
-корені гілки `main`. Коду тут немає й не буде.
+This repository is the update channel for **EasyBPM** by
+[EasyOneAudio](https://easyoneaudio.com). It holds no source code: only the
+signed installer packages attached to each release, and a `latest.json`
+manifest that the app reads to learn whether a newer version exists.
 
-## ⚠️⚠️ ПЕРЕД ПЕРШИМ РЕЛІЗОМ РЕПО МУСИТЬ СТАТИ ПУБЛІЧНИМ
+There is nothing here to install by hand. EasyBPM checks this channel itself and
+offers the update inside the app.
 
-Плагін тягне маніфест анонімно:
+## Verifying a download
 
-    https://raw.githubusercontent.com/bereggg/easybpm-releases/main/latest.json
+Every package is signed with our Developer ID Installer certificate
+(Team ID `2VKTV5VPVB`) and notarized by Apple. To check a `.pkg` yourself:
 
-`raw.githubusercontent.com` не бачить приватних репозиторіїв — приватний віддасть
-404, а клієнт після невдачі не повторює спробу 24 години. Тобто оновлення
-мовчки не працюватимуть.
+```
+pkgutil --check-signature EasyBPM.pkg
+```
 
-Зараз репо приватне свідомо: доки `latest.json` немає, тягнути звідси нічого, а
-порожній публічний репозиторій лише завчасно показує назву ще не випущеного
-продукту. Перемкнути на Public — у Settings, одним рухом, у день релізу.
+The output must name `Developer ID Installer: Dmytro Berezhnyi (2VKTV5VPVB)` and
+report `Notarization: trusted by the Apple notary service`. EasyBPM performs this
+same check before it will install anything, so a package that fails it is
+rejected whether you run the command or not.
 
-## Порядок публікації
+The `sha256` field in `latest.json` proves only that a download arrived intact.
+The signature is what proves it came from us.
 
-Повний опис — `docs/RELEASING.md` у репозиторії EasyBPM. Найважливіше звідти:
+---
 
-⚠️ `latest.json` публікувати **після** того, як `.pkg` уже прикріплений до
-релізу. Навпаки — і кожен клієнт отримає 404 на завантаження й не спробує ще
-добу.
-
-⚠️ `sha256` у маніфесті доводить лише цілісність: маніфест і пакет лежать в
-одному репозиторії, тож той, хто підмінить один, підмінить і другий.
-Автентичність тримає `pkgutil --check-signature` на боці клієнта —
-Developer ID Installer `2VKTV5VPVB` **і** нотаризація Apple.
+No releases published yet.
