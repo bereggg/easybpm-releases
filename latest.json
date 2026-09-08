@@ -1,10 +1,10 @@
 {
-  "version": "1.0.1",
-  "notes": "• Signed update manifest and per-user Windows install without UAC  ",
-  "url": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.1/EasyBPM.pkg",
-  "sha256": "618fd29c779daf28123b23c202890d1571fa209375fa2e12281385c4be9ec0f9",
-  "winUrl": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.1/EasyBPM-1.0.1-Setup.exe",
-  "winSha256": "7bafcf916e003000a3511ec9759538e060ca219043f8e7074dbff0404d7dd7f6",
-  "pubDate": "2026-09-08T16:29:28Z",
-  "sig": "MEYCIQCY0dMDg+3llv7HhomuAfPQpOZrYtstGF0ZOwj+xhuzvgIhAIJDFcRDl5lfemgcNGTsTn4Fkw1N4f7X9t+YdC5fNhaS"
+  "version": "1.0.2",
+  "notes": "• Test build for the in-place update check  ",
+  "url": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.2/EasyBPM.pkg",
+  "sha256": "fc6d454f1ded57ddfc09058c137207d9ca162ac3717e6dfc54123e4daf4bf5ef",
+  "winUrl": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.2/EasyBPM-1.0.2-Setup.exe",
+  "winSha256": "e3aea69156c3d809d0c8eb7a2e2f2865e49c6763e900d9a809d549722352e86d",
+  "pubDate": "2026-09-08T16:58:15Z",
+  "sig": "MEYCIQDhkAilNg6UibdQrpob75JcNwYnxh8T3LtkgZxYsrk4zQIhAIRldbHAqOo48ve/nP5Hzh7iSRTAQpaWe4GNyhOpyScP"
 }
