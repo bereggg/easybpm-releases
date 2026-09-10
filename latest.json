@@ -1,10 +1,10 @@
 {
-  "version": "1.0.3",
-  "notes": "• New Update  ",
-  "url": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.3/EasyBPM.pkg",
-  "sha256": "b1080baa1c86257463c61e122accd26f5fc62f79fdde1592ea16d80bf5205068",
-  "winUrl": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.3/EasyBPM-1.0.3-Setup.exe",
-  "winSha256": "05a66f455cf06a42c6268e52914ffbd8b5ed06f09fa8a3a2607ea6cf68efa64c",
-  "pubDate": "2026-09-10T10:18:54Z",
-  "sig": "MEQCIFSQD2ZwXku3yB/wBlzs0Zwm7mrCTghYaHAuHdB+Ve/xAiBolLQwBvalt00WRAbx9hsiuV6jeGcZzECtruFskyzmGQ=="
+  "version": "1.0.4",
+  "notes": "• Update  ",
+  "url": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.4/EasyBPM.pkg",
+  "sha256": "74cdc61a3b3a4fcb9b9f4e0ca5055359e5db3d4010336a4dbf48e9883c5e66aa",
+  "winUrl": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.4/EasyBPM-1.0.4-Setup.exe",
+  "winSha256": "cd23953af5283a959e030da06fde8dfd25c825522b8d49f5355111bbbaf373c8",
+  "pubDate": "2026-09-10T10:55:42Z",
+  "sig": "MEYCIQDifqUkB0IHcQBtzvF1fqHnXMljl4QTamiSB/MXo14CqgIhAL0jGKhqPKYm+fAdU3gUQt2Z9kq8/TTkz3qJCNxaAwmj"
 }
