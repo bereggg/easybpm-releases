@@ -2,9 +2,9 @@
   "version": "1.0.2",
   "notes": "• New design  • Smooth focus animation  • Faster BPM detection  • Faster KEY detection  ",
   "url": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.2/EasyBPM.pkg",
-  "sha256": "d11def62c68fe81702a37d5d8614b83e93f754fe23d76fdfcde6763f62703dfc",
+  "sha256": "5f246fa3f23e070c59e2128e37056c813c57df302f87226ad2fa5f0727e8af0a",
   "winUrl": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.2/EasyBPM-1.0.2-Setup.exe",
   "winSha256": "b217d9b2db1a01865aed4d68ab7f5b7b44e7fc4ef0b4916e787138d50705ba4d",
-  "pubDate": "2026-09-17T11:01:33Z",
-  "sig": "MEQCIDiVHB9TpzHc8hE0RVe4PAhco2EwJ3RylVV2OBfO3Gj7AiA/5jnU1KueXx0rfYbpurXUvB41A9zmet+x67TatsWvpQ=="
+  "pubDate": "2026-09-17T11:27:48Z",
+  "sig": "MEQCICqtrE1FDbpLHjZ12Botfl6T3boDmPJ5bU5EzIWjZ/AuAiBjsULMpx0dzKk7/9W/yY8Dv7XMh8q3Wffqe2efoctWdw=="
 }
