@@ -1,10 +1,10 @@
 {
-  "version": "1.0.1",
-  "notes": "Виправлення та покращення.",
-  "url": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.1/EasyBPM.pkg",
-  "sha256": "591b60a42294e76fd538313657690c7631a3326acd4c38e164b5b3d7ea3fef4c",
-  "winUrl": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.1/EasyBPM-1.0.1-Setup.exe",
-  "winSha256": "bc814c7b54c3e9d035abafd885b26adf4ab9e552793909050c2d0033e1d40628",
-  "pubDate": "2026-09-12T13:39:26Z",
-  "sig": "MEQCICPORInSpRPBqD8hQcxfepBJPJvvFcvg9EJPJfpZmA2tAiAVB5l9LZpPgJBfwRfnITJuGSFJ4dfYMMwO0p9BgoJXdg=="
+  "version": "1.0.2",
+  "notes": "• New design  • Smooth focus animation  • Faster BPM detection  • Faster KEY detection  ",
+  "url": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.2/EasyBPM.pkg",
+  "sha256": "d11def62c68fe81702a37d5d8614b83e93f754fe23d76fdfcde6763f62703dfc",
+  "winUrl": "https://github.com/bereggg/easybpm-releases/releases/download/v1.0.2/EasyBPM-1.0.2-Setup.exe",
+  "winSha256": "b217d9b2db1a01865aed4d68ab7f5b7b44e7fc4ef0b4916e787138d50705ba4d",
+  "pubDate": "2026-09-17T11:01:33Z",
+  "sig": "MEQCIDiVHB9TpzHc8hE0RVe4PAhco2EwJ3RylVV2OBfO3Gj7AiA/5jnU1KueXx0rfYbpurXUvB41A9zmet+x67TatsWvpQ=="
 }
